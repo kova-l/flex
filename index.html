@@ -1,0 +1,182 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>FLEXBOX</title>
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<div class="hi">
+				<div class="container">
+					<div class="hi__row">
+						<div class="hi__body">
+							<div class="hi__title">Привіт друг!</div>
+							<ul class="hi__list">
+								<li>Text</li>
+								<li>Text</li>
+								<li>Text</li>
+								<li>Text</li>
+							</ul>
+						</div>
+						<div class="hi__image">
+							<img src="img/image.jpg" alt="img">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="what">
+				<div class="container">
+					<div class="what__row">
+						<div class="what__image">
+							<img src="img/image_2.jpg" alt="img">
+						</div>
+						<div class="what__body">
+							<div class="what__title title">
+								Text!
+							</div>
+							<div class="what__text">
+								<p>Flexbox — это технология для создания сложных гибких макетов за счёт правильного
+									размещения элементов на странице. О самой технологии пишут здесь.</p>
+								<p>Когда увеличивается первый блок, он не становится в два раза больше второго, и когда
+									уменьшается второй, он также не становится в два раза меньше первого.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="container">
+					<div class="columns__title title">Колонки з Flex</div>
+					<div class="columns__row">
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image">
+										<img src="img/image_3.jpg" alt="img">
+									</div>
+									<div class="item__body">
+										<div class="item__title">TEXT</div>
+										<div class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image">
+										<img src="img/image_3.jpg" alt="img">
+									</div>
+									<div class="item__body">
+										<div class="item__title">TEXT</div>
+										<div class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image">
+										<img src="img/image_3.jpg" alt="img">
+									</div>
+									<div class="item__body">
+										<div class="item__title">TEXT</div>
+										<div class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image">
+										<img src="img/image_3.jpg" alt="img">
+									</div>
+									<div class="item__body">
+										<div class="item__title">TEXT</div>
+										<div class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="vertical">
+				<div class="container">
+					<div class="vertical__title title">Вертикальне вирівнювання</div>
+					<div class="vertical__body">
+						<div class="vertical__row">
+							<div class="vertical__column">
+								<div class="vertical__item">
+									<div class="vertical__subtitle">Буду рад</div>
+									<div class="vertical__label">подписке</div>
+									<div class="vertical__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</div>
+									<div class="vertical__btn">подписаться</div>
+								</div>
+							</div>
+							<div class="vertical__column">
+								<div class="vertical__item">
+									<div class="vertical__subtitle">Буду рад</div>
+									<div class="vertical__label">лайку</div>
+									<div class="vertical__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+											cillum dolore eu fugiat nulla pariatur.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+									<div class="vertical__btn">лайкни</div>
+								</div>
+							</div>
+							<div class="vertical__column">
+								<div class="vertical__item">
+									<div class="vertical__subtitle">Буду рад</div>
+									<div class="vertical__label">комментарию</div>
+									<div class="vertical__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.
+									</div>
+									<div class="vertical__btn">комментировать</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__text">Text</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
